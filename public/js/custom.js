@@ -46,11 +46,12 @@ $(function(){
     })
 
     // save content pdf
-    $('#save_content').on('click', function(e){
+    $('#save_content').on('click', function(){
         let content=$('.content-body').html();
         $('#content').val(content);
     })
-    
+
+  
 
 
 })
