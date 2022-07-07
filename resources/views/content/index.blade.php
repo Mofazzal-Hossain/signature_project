@@ -11,7 +11,7 @@
                     <button type="submit" id="save_content" class="btn bg-primary text-white rounded-0 py-1 px-3">Continue</button>
                 </div>
             </div>
-            <input type="hidden" id="content" name="content" value="">
+            <input type="hidden" id="contents" name="content" value="">
             <section class="content-body">
                 <div class="content-wrapper mt-3">
                     <div class="container">

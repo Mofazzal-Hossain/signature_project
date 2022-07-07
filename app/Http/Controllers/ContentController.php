@@ -29,7 +29,7 @@ class ContentController extends Controller
         $data=new ContentPdf;
         $data->content=$request->content;
         $data->save();
-        return view('content.pdf');
+        return redirect('content/pdf');
     }
     
 
