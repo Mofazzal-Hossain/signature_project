@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Content;
+use App\Models\ContentPdf;
 use Illuminate\Http\Request;
+use PDF;
 
 class ContentController extends Controller
 {
@@ -21,4 +23,25 @@ class ContentController extends Controller
         
         return view('content.index', ['contents'=>$contents]);
     }
+
+    public function createPDF(Request $request)
+    {
+        $data=new ContentPdf;
+        $data->content=$request->content;
+        $data->save();
+        return redirect('content/pdf');
+    }
+    
+
+    public function showPDF() {
+        $contents = ContentPdf::first();
+
+        $contents=$contents->toArray();
+        view()->share('content.index',$contents);
+        $pdf = PDF::loadview('content.pdf', $contents);
+
+        return $pdf->download('pdf_file.pdf');
+    }
+
+
 }

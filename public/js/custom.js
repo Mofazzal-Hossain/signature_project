@@ -45,11 +45,11 @@ $(function(){
         $('#content').val(content);
     })
 
-    //empty element
-    function isEmpty( el ){
-        return !$.trim(el.html())
-    }
-
+    // save content pdf
+    $('#save_content').on('click', function(e){
+        let content=$('.content-body').html();
+        $('#content').val(content);
+    })
     
 
 

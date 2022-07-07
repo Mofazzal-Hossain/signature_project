@@ -15,7 +15,7 @@
                                     </svg> 
                                     Signature
                                 </span>
-                                <input type="text" class="w-100 h-100 form-control" placeholder="Signature">
+                                <input type="text" value="" class="w-100 h-100 form-control" placeholder="Signature">
                             </div>
                         </div>
                         <div class="fields mb-2 pb-1" id="item1">
@@ -26,7 +26,7 @@
                                     </svg> 
                                     Signature
                                 </span>
-                                <input type="text" class="w-100 h-100 form-control" placeholder="Signature">
+                                <input type="text" value="" class="w-100 h-100 form-control" placeholder="Signature">
                             </div>
                         </div>
                         <div class="fields mb-2 pb-1" id="item1">
@@ -37,7 +37,7 @@
                                     </svg> 
                                     Signature
                                 </span>
-                                <input type="text" class="w-100 h-100 form-control" placeholder="Signature">
+                                <input type="text" value="" class="w-100 h-100 form-control" placeholder="Signature">
                             </div>
                         </div>
                         <div class="fields mb-2 pb-1" id="item1">
@@ -48,7 +48,7 @@
                                     </svg> 
                                     Signature
                                 </span>
-                                <input type="text" class="w-100 h-100 form-control" placeholder="Signature">
+                                <input type="text" value="" class="w-100 h-100 form-control" placeholder="Signature">
                             </div>
                         </div>
                         <div class="fields mb-2 pb-1" id="item1">
@@ -59,7 +59,7 @@
                                     </svg> 
                                     Signature
                                 </span>
-                                <input type="text" class="w-100 h-100 form-control" placeholder="Signature">
+                                <input type="text" value="" class="w-100 h-100 form-control" placeholder="Signature">
                             </div>
                         </div>
                         <div class="fields mb-2 pb-1" id="item1">
@@ -70,7 +70,7 @@
                                     </svg> 
                                     Signature
                                 </span>
-                                <input type="text" class="w-100 h-100 form-control" placeholder="Signature">
+                                <input type="text" value="" value="" class="w-100 h-100 form-control" placeholder="Signature">
                             </div>
                         </div>
                     </div>

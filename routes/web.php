@@ -19,6 +19,9 @@ Route::view('/upload','upload.index');
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/new', function () {
+    return view('content.pdf');
+});
 
 Route::post('/store', [App\Http\Controllers\DocumentController::class, "store"]);
 Route::post('/signature', [App\Http\Controllers\SignatureController::class, "upload"])->name('signature.upload');
@@ -26,3 +29,7 @@ Route::post('/signature', [App\Http\Controllers\SignatureController::class, "upl
 Route::get('/signature', [App\Http\Controllers\SignatureController::class, "show"]);
 Route::post('/store', [App\Http\Controllers\ContentController::class, "store"])->name('content.store');
 Route::get('/content', [App\Http\Controllers\ContentController::class, "show"]);
+
+Route::post('/content', [App\Http\Controllers\ContentController::class, "createPDF"])->name('content.createPDF');
+Route::get('/content/pdf', [App\Http\Controllers\ContentController::class, "showPDF"]);
+
