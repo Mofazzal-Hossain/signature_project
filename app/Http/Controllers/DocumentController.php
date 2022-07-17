@@ -7,7 +7,6 @@ use Illuminate\Http\Request;
 use PhpOffice\PhpWord\IOFactory;
 class DocumentController extends Controller
 {
-    //
     public function store(Request $request)
     {
         $data =$request->file('file');
@@ -18,7 +17,7 @@ class DocumentController extends Controller
         $PDFWriter=IOFactory::createWriter($Content,'PDF');
         $PDFWriter->save(public_path("pdf/abcd.pdf")); 
 
-        return redirect()->back()->with('success',"File uploaded to your database");
+        return back();
        
     }
 }

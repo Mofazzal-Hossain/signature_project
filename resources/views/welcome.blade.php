@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
-
    <section class="signature-wrapper pt-5">
         <div class="container">
             <div class="row">
@@ -13,9 +12,9 @@
                                     <svg width="1.5em" height="1.5em" viewBox="0 0 24 24" class="src-hellospa-icons-icons__icon--3vTqR" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.988 7.139c0 .597-.236 1.169-.657 1.591l-7.114 7.109-4.25.691.692-4.25L13.77 5.17a2.252 2.252 0 013.182 0l.378.379c.422.422.659.994.659 1.591zm-1.718-.53l-.378-.379a.752.752 0 00-1.063 0l-.796.796 1.45 1.43.787-.787a.75.75 0 000-1.06zM8.062 13l-.28 1.717 1.718-.279 4.923-4.919-1.45-1.43L8.062 13z" fill="currentColor">
                                     </path><path d="M5 18h14v1.5H5V18z" fill="currentColor"></path>
                                     </svg> 
-                                    Signature
+                                    Name
                                 </span>
-                                <input type="text" value="" class="w-100 h-100 form-control" placeholder="Signature">
+                                <input type="text" class="w-100 h-100 form-control" placeholder="Name">
                             </div>
                         </div>
                         <div class="fields mb-2 pb-1" id="item1">
@@ -24,9 +23,9 @@
                                     <svg width="1.5em" height="1.5em" viewBox="0 0 24 24" class="src-hellospa-icons-icons__icon--3vTqR" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.988 7.139c0 .597-.236 1.169-.657 1.591l-7.114 7.109-4.25.691.692-4.25L13.77 5.17a2.252 2.252 0 013.182 0l.378.379c.422.422.659.994.659 1.591zm-1.718-.53l-.378-.379a.752.752 0 00-1.063 0l-.796.796 1.45 1.43.787-.787a.75.75 0 000-1.06zM8.062 13l-.28 1.717 1.718-.279 4.923-4.919-1.45-1.43L8.062 13z" fill="currentColor">
                                     </path><path d="M5 18h14v1.5H5V18z" fill="currentColor"></path>
                                     </svg> 
-                                    Signature
+                                    Email
                                 </span>
-                                <input type="text" value="" class="w-100 h-100 form-control" placeholder="Signature">
+                                <input type="email" class="w-100 h-100 form-control" placeholder="Email">
                             </div>
                         </div>
                         <div class="fields mb-2 pb-1" id="item1">
@@ -35,9 +34,9 @@
                                     <svg width="1.5em" height="1.5em" viewBox="0 0 24 24" class="src-hellospa-icons-icons__icon--3vTqR" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.988 7.139c0 .597-.236 1.169-.657 1.591l-7.114 7.109-4.25.691.692-4.25L13.77 5.17a2.252 2.252 0 013.182 0l.378.379c.422.422.659.994.659 1.591zm-1.718-.53l-.378-.379a.752.752 0 00-1.063 0l-.796.796 1.45 1.43.787-.787a.75.75 0 000-1.06zM8.062 13l-.28 1.717 1.718-.279 4.923-4.919-1.45-1.43L8.062 13z" fill="currentColor">
                                     </path><path d="M5 18h14v1.5H5V18z" fill="currentColor"></path>
                                     </svg> 
-                                    Signature
+                                    Date
                                 </span>
-                                <input type="text" value="" class="w-100 h-100 form-control" placeholder="Signature">
+                                <input type="date" class="w-100 h-100 form-control" value="2018-07-22" placeholder="Date">
                             </div>
                         </div>
                         <div class="fields mb-2 pb-1" id="item1">
@@ -46,9 +45,9 @@
                                     <svg width="1.5em" height="1.5em" viewBox="0 0 24 24" class="src-hellospa-icons-icons__icon--3vTqR" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.988 7.139c0 .597-.236 1.169-.657 1.591l-7.114 7.109-4.25.691.692-4.25L13.77 5.17a2.252 2.252 0 013.182 0l.378.379c.422.422.659.994.659 1.591zm-1.718-.53l-.378-.379a.752.752 0 00-1.063 0l-.796.796 1.45 1.43.787-.787a.75.75 0 000-1.06zM8.062 13l-.28 1.717 1.718-.279 4.923-4.919-1.45-1.43L8.062 13z" fill="currentColor">
                                     </path><path d="M5 18h14v1.5H5V18z" fill="currentColor"></path>
                                     </svg> 
-                                    Signature
+                                    Phone
                                 </span>
-                                <input type="text" value="" class="w-100 h-100 form-control" placeholder="Signature">
+                                <input type="text" class="w-100 h-100 form-control" placeholder="Phone Number">
                             </div>
                         </div>
                         <div class="fields mb-2 pb-1" id="item1">
@@ -57,9 +56,9 @@
                                     <svg width="1.5em" height="1.5em" viewBox="0 0 24 24" class="src-hellospa-icons-icons__icon--3vTqR" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.988 7.139c0 .597-.236 1.169-.657 1.591l-7.114 7.109-4.25.691.692-4.25L13.77 5.17a2.252 2.252 0 013.182 0l.378.379c.422.422.659.994.659 1.591zm-1.718-.53l-.378-.379a.752.752 0 00-1.063 0l-.796.796 1.45 1.43.787-.787a.75.75 0 000-1.06zM8.062 13l-.28 1.717 1.718-.279 4.923-4.919-1.45-1.43L8.062 13z" fill="currentColor">
                                     </path><path d="M5 18h14v1.5H5V18z" fill="currentColor"></path>
                                     </svg> 
-                                    Signature
+                                    Company
                                 </span>
-                                <input type="text" value="" class="w-100 h-100 form-control" placeholder="Signature">
+                                <input type="text" class="w-100 h-100 form-control" placeholder="Company">
                             </div>
                         </div>
                         <div class="fields mb-2 pb-1" id="item1">
@@ -68,9 +67,33 @@
                                     <svg width="1.5em" height="1.5em" viewBox="0 0 24 24" class="src-hellospa-icons-icons__icon--3vTqR" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.988 7.139c0 .597-.236 1.169-.657 1.591l-7.114 7.109-4.25.691.692-4.25L13.77 5.17a2.252 2.252 0 013.182 0l.378.379c.422.422.659.994.659 1.591zm-1.718-.53l-.378-.379a.752.752 0 00-1.063 0l-.796.796 1.45 1.43.787-.787a.75.75 0 000-1.06zM8.062 13l-.28 1.717 1.718-.279 4.923-4.919-1.45-1.43L8.062 13z" fill="currentColor">
                                     </path><path d="M5 18h14v1.5H5V18z" fill="currentColor"></path>
                                     </svg> 
-                                    Signature
+                                    Title
                                 </span>
-                                <input type="text" value="" value="" class="w-100 h-100 form-control" placeholder="Signature">
+                                <input type="text" class="w-100 h-100 form-control" placeholder="Title">
+                            </div>
+                        </div>
+                        <div class="fields mb-2 pb-1" id="item1">
+                            <div class="item-info">
+                                <span>
+                                    <svg width="1.5em" height="1.5em" viewBox="0 0 24 24" class="src-hellospa-icons-icons__icon--3vTqR" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.988 7.139c0 .597-.236 1.169-.657 1.591l-7.114 7.109-4.25.691.692-4.25L13.77 5.17a2.252 2.252 0 013.182 0l.378.379c.422.422.659.994.659 1.591zm-1.718-.53l-.378-.379a.752.752 0 00-1.063 0l-.796.796 1.45 1.43.787-.787a.75.75 0 000-1.06zM8.062 13l-.28 1.717 1.718-.279 4.923-4.919-1.45-1.43L8.062 13z" fill="currentColor">
+                                    </path><path d="M5 18h14v1.5H5V18z" fill="currentColor"></path>
+                                    </svg> 
+                                    Text
+                                </span>
+                                <input type="text" class="w-100 h-100 form-control" placeholder="Text">
+                            </div>
+                        </div>
+                        <div class="fields mb-2 pb-1" id="item1">
+                            <div class="item-info">
+                                <span>
+                                    <svg width="1.5em" height="1.5em" viewBox="0 0 24 24" class="src-hellospa-icons-icons__icon--3vTqR" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.988 7.139c0 .597-.236 1.169-.657 1.591l-7.114 7.109-4.25.691.692-4.25L13.77 5.17a2.252 2.252 0 013.182 0l.378.379c.422.422.659.994.659 1.591zm-1.718-.53l-.378-.379a.752.752 0 00-1.063 0l-.796.796 1.45 1.43.787-.787a.75.75 0 000-1.06zM8.062 13l-.28 1.717 1.718-.279 4.923-4.919-1.45-1.43L8.062 13z" fill="currentColor">
+                                    </path><path d="M5 18h14v1.5H5V18z" fill="currentColor"></path>
+                                    </svg> 
+                                    Checkbox
+                                </span>
+                                <div class="form-check">
+                                    <input class="form-check-input" id="IsActive" name="IsActive" type="checkbox" value="false">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -87,7 +110,7 @@
                         <div class="signature-content">
                             <div class="main-content position-relative d-flex flex-wrap gap-3" id="myList1">
                                 <div class="file-viewer w-100" style="order: 2">
-                                    <img src="/images/pdf.jpg" class="w-100" alt="">
+                                    <img src="{{URL::asset('/images/pdf.jpg')}}" class="w-100" alt="">
                                 </div>
                             </div>
                         </div>

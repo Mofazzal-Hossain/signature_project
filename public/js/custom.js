@@ -45,14 +45,38 @@ $(function(){
         $('#content').val(content);
     })
 
+    $('.form-check>input').change(function () {
+        var chk = $(".form-check>input")
+        var IsChecked = chk[0].checked
+        if (IsChecked) {
+         chk.attr('checked', 'checked')
+         console.log('true');
+        } 
+        else {
+         chk.removeAttr('checked');
+         console.log('false');                          
+        }
+        chk.attr('value', IsChecked);
+    });
+
     // save content pdf
-    $('#save_content').on('click', function(){
+    $('#save_content').on('click', function(e){
+        // e.preventDefault();
+        $('input,checkbox').each(function() {
+            if($(this).is("[type='checkbox']") || $(this).is("[type='checkbox']")) {
+                let checkMark = $(this).val();
+                $(this).attr("value", checkMark);
+                console.log("isChecked==>" + $(this).attr("checked"));
+            }else{
+                let inputVal = $(this).val();
+                $(this).attr("value", inputVal);
+            }
+
+        });
         let content=$('.content-body').html();
         $('#contents').val(content);
     })
-
-  
-
+    
 
 })
 

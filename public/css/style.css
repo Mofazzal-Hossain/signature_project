@@ -3,7 +3,8 @@
     padding: 0;
     outline: 0;
 }
-.btn:focus{
+.btn:focus,
+.form-check-input:focus{
     outline: none;
     box-shadow: none;
 }
@@ -46,7 +47,7 @@
     filter: drop-shadow(0 3px 3px rgba(0,0,0,.17));
 }
 .signature-wrapper svg{
-    margin-right:10px;
+    margin-right:5px;
 }
 .signature-content{
     border: 1px solid #ddd;
@@ -144,7 +145,8 @@
 .signature-content .new_item svg,
 .item-info input,
 .new_item input,
-.content-wrapper .new_item span{
+.content-wrapper .new_item span,
+.signature-wrapper .form-check{
     display: none;
 }
 .content-wrapper .new_item{
@@ -158,7 +160,7 @@
 .content-wrapper .new_item{
     display: block;
     background:transparent;
-    font-weight: 600;
+    font-weight: bold;
 }
 .signature-content .ui-resizable-autohide{
     border:1px solid #727a83;
@@ -171,4 +173,40 @@
 .form-control:focus{
     box-shadow: none;
     outline: 0;
+}
+.preview-image .content-wrapper .new_item{
+    font-weight: bold;
+    pointer-events: none;
+    border: 0;
+}
+.preview-image .ui-resizable-handle,
+.content-body .ui-resizable-handle{
+    display: none!important;
+}
+::-webkit-datetime-edit-day-field, ::-webkit-datetime-edit-fields-wrapper, ::-webkit-datetime-edit-hour-field, ::-webkit-datetime-edit-minute, ::-webkit-datetime-edit-month-field, ::-webkit-datetime-edit-text, ::-webkit-datetime-edit-year-field{
+    padding: 10px 0!important;
+}
+.preview-image input[type="date"]::-webkit-inner-spin-button,
+.preview-image input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+.main-content .form-check {
+    margin: 0;
+    padding: 0;
+}
+.main-content .form-check input{
+    border: 1px solid #ccc;
+    border-radius: 0;
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.form-check-input:checked{
+    background-color: #000!important;
 }
