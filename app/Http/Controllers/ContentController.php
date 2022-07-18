@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use PDF;
 use App\Models\Content;
 use App\Models\ContentPdf;
 use Illuminate\Http\Request;

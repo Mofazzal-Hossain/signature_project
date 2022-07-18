@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Upload;
 use Illuminate\Http\Request;
 use PhpOffice\PhpWord\IOFactory;
 class DocumentController extends Controller
@@ -17,7 +16,7 @@ class DocumentController extends Controller
         $PDFWriter=IOFactory::createWriter($Content,'PDF');
         $PDFWriter->save(public_path("pdf/abcd.pdf")); 
 
-        return back();
+        return redirect('welcome');
        
     }
 }

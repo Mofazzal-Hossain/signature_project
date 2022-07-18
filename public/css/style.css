@@ -152,8 +152,6 @@
 .content-wrapper .new_item{
     padding: 0;
     border-radius: 0;
-    margin-left: -7px;
-    margin-top: -7px;
     border-color: #66666626;
 }
 .content-wrapper .new_item input,
@@ -209,4 +207,13 @@
 }
 .form-check-input:checked{
     background-color: #000!important;
+}
+
+.signature-content::-webkit-scrollbar {
+    display: none;
+  }
+  
+.signature-content {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
 }

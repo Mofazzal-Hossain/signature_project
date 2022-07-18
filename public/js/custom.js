@@ -75,6 +75,7 @@ $(function(){
         });
         let content=$('.content-body').html();
         $('#contents').val(content);
+        
     })
     
 

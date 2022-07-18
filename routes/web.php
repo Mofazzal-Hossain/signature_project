@@ -24,9 +24,10 @@ Route::get('/new', function () {
 });
 
 Route::post('/store', [App\Http\Controllers\DocumentController::class, "store"]);
-Route::post('/signature', [App\Http\Controllers\SignatureController::class, "upload"])->name('signature.upload');
 
+Route::post('/signature', [App\Http\Controllers\SignatureController::class, "upload"])->name('signature.upload');
 Route::get('/signature', [App\Http\Controllers\SignatureController::class, "show"]);
+
 Route::post('/store', [App\Http\Controllers\ContentController::class, "store"])->name('content.store');
 Route::get('/content', [App\Http\Controllers\ContentController::class, "show"]);
 
